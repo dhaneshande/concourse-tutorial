@@ -8,7 +8,7 @@ resources:
   type: git
   source:
     branch: master
-    uri: https://gist.github.com/c93fa4887517031f0482a5dd1bab5371.git
+    uri: ssh://git@gist.github.com:c93fa4887517031f0482a5dd1bab5371.git
     private_key:
 
 jobs:
