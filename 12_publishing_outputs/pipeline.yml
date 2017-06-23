@@ -9,7 +9,7 @@ resources:
   source:
     branch: master
     uri: https://gist.github.com/c93fa4887517031f0482a5dd1bab5371.git
-    private_key:
+    private_key: |
     -----BEGIN RSA PRIVATE KEY-----
 MIIEowIBAAKCAQEA3K78XNfUmkuD+Gcn7Z8ybJTEu5aIP8kBFPCI9bIGoVYyhUTo
 e9AqqIf/54RTTaRDDxUxUhgNG/eSYX2c1CQb3mcIWdJ1M6I6kvwYhOK5vlKgzFCc
