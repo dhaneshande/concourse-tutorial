@@ -3,7 +3,7 @@ resources:
 - name: resource-tutorial
   type: git
   source:
-    uri: https://github.com/dhaneshande/concourse-tutorial.git
+    uri: git@gist.github.com:c93fa4887517031f0482a5dd1bab5371.git
 - name: resource-gist
   type: git
   source:
