@@ -10,7 +10,7 @@ resources:
     branch: master
     uri: https://gist.github.com/c93fa4887517031f0482a5dd1bab5371.git
     private_key: |
-    -----BEGIN RSA PRIVATE KEY-----
+ -----BEGIN RSA PRIVATE KEY-----
 MIIEowIBAAKCAQEA3K78XNfUmkuD+Gcn7Z8ybJTEu5aIP8kBFPCI9bIGoVYyhUTo
 e9AqqIf/54RTTaRDDxUxUhgNG/eSYX2c1CQb3mcIWdJ1M6I6kvwYhOK5vlKgzFCc
 3s9Sin7bltTe7zrHcHD8xDyB++FDtVviBH9N9E07hn9mbsATN8nE0B/kL5vQpXsx
@@ -36,7 +36,7 @@ HdETzETbVRWp5Ryau4Zz74VN2pY14X+rOxQnlliFwkBzTYLpqf/iymlKok64nK14
 6JgCNQKBgEZN9ZmpDW4KyevXlPeRXCU2jg8ZJ2xtljGHmcfjfXbW7n1ThWUJtpMz
 tyxqm6HYd7XJxn63KB7ORJC/LccgLm5YPch7isnAfCNgu9ctFY2agKyGlMFuRNab
 826SqSOQzuis4/cVghHfjFltLpv9spB5nbah68SEjPHl5Ct4xECc
-    -----END RSA PRIVATE KEY-----
+ -----END RSA PRIVATE KEY-----
 
 
 jobs:
