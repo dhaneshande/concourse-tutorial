@@ -7,7 +7,7 @@ resources:
 - name: resource-gist
   type: git
   source:
-    uri: git@gist.github.com:0c2e172346cb8b0197a9.git
+    uri: https://gist.github.com/c93fa4887517031f0482a5dd1bab5371.git
     branch: master
     private_key: |
       -----BEGIN RSA PRIVATE KEY-----
