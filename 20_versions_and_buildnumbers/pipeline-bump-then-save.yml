@@ -6,8 +6,8 @@ resources:
     driver: git
     initial_version: 0.0.1
     uri: {{git-uri-bump-semver}}
-    branch: version
-    file: version
+    branch: master
+    file: master
     private_key: {{github-private-key}}
 
 jobs:
