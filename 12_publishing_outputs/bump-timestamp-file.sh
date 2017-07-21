@@ -6,7 +6,14 @@ set -x # print commands
 git clone resource-gist updated-gist
 
 cd updated-gist
-echo $(date) > bumpme
+PACKAGE_VERSION=$(cat package.json \
+| grep version \
+| head -1 \
+| awk -F: '{ print $2 }' \
+| sed 's/[",]//g' \
+| tr -d '[[:space:]]')
+echo "current package version:${PACKAGE_VERSION}"
+echo $(PACKAGE_VERSION) > bumpme
 
 git config --global user.email "dande@miraclesoft.com"
 git config --global user.name "dhaneshande"
