@@ -6,6 +6,8 @@ set -x # print commands
 git clone resource-gist updated-gist
 
 cd updated-gist
+ls -R
+ls -la
 PACKAGE_VERSION=$(cat package.json \
 | grep version \
 | head -1 \
