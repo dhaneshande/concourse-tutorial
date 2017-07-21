@@ -6,7 +6,7 @@ set -x # print commands
 cd resource-tutorial/12_publishing_outputs/
 ls -R
 ls -la
-git clone resource-gist updated-gist
+git clone resource-tutorial/12_publishing_outputs/ updated-gist
 
 cd updated-gist
 ls -R
