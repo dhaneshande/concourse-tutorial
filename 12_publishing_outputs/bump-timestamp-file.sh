@@ -3,9 +3,6 @@
 set -e # fail fast
 set -x # print commands
 
-cd resource-tutorial/12_publishing_outputs/
-ls -R
-ls -la
 git clone resource-gist updated-gist
 
 cd updated-gist
