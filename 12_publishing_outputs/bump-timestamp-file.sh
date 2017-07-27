@@ -17,6 +17,8 @@ PACKAGE_VERSION=$(cat package.json \
 echo "current package version:${PACKAGE_VERSION}"
 echo $(PACKAGE_VERSION) > bumpme
 
+docker ps
+
 git config --global user.email "dande@miraclesoft.com"
 git config --global user.name "dhaneshande"
 
